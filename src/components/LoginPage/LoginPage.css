@@ -1,0 +1,136 @@
+.login-main {
+  background-image: url(../../images/login/hayes-potter-ElamTZZlm18-unsplash.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  padding: 0 0 0 50px;
+}
+
+.login-container {
+  height: 85%;
+  width: 40%;
+  background-color: rgb(245, 245, 245);
+  border-radius: 12px;
+  padding: 0 80px;
+  box-shadow: 0 0 5px var(--strong-grey);
+}
+
+.login-container input:nth-child(2) {
+  margin-bottom: 15px;
+}
+
+.login-container label {
+  position: relative;
+}
+
+.login-container input {
+  padding: 0 45px;
+  border: 1px solid var(--light-grey);
+  height: 45px;
+  width: 100%;
+  border-radius: 7px;
+  outline: none;
+}
+
+.login-container i {
+  position: absolute;
+  top: 15%;
+  left: 5%;
+}
+
+.login-container-initial {
+  height: 55%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+  padding-top: 50px;
+}
+
+.login-container-initial h1 {
+  font-weight: 700;
+}
+
+.login-container-final {
+  height: 45%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-bottom: 60px;
+  padding-top: 10px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.buttons div {
+  display: flex;
+}
+
+.buttons div p {
+  font-size: 12px;
+  color: var(--strong-grey);
+  font-weight: 600;
+}
+
+.buttons div p:nth-child(1) {
+  margin-right: 25px;
+}
+
+.buttons button {
+  padding: 10px 17px;
+  background-color: var(--strong-grey);
+  border: none;
+  border-radius: 10px;
+  font-weight: 600;
+  color: white;
+}
+
+.buttons button, .buttons div p {
+  cursor: pointer;
+  transition: all 200ms ease-in-out;
+}
+
+.buttons div p:hover {
+  color: var(--black);
+}
+
+.buttons button:hover {
+  background-color: var(--black);
+}
+
+.connect {
+  display: flex;
+  justify-content: space-between;
+}
+
+.connect > p {
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--strong-grey);
+}
+
+.connect div {
+  display: flex;
+}
+
+.connect div p {
+  color: var(--light-blue);
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 200ms ease-in-out;
+}
+
+.connect div p:hover {
+  color: var(--strong-blue);
+}
+
+.connect div p:nth-child(2) {
+  margin: 0 15px;
+}
